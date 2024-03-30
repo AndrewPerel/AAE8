@@ -1,7 +1,7 @@
 /*
 Author: Andrew Perel
 Date: 3/29/2024
-File Name: apply08.css
+File Name: styles08.css
 */
 
 /* CSS Reset */
@@ -13,7 +13,8 @@ body, main, footer, table {
 
 /* Style rule for body */
 body {
-	background-color: #f4f9e1;
+	background-color: #ffe5dc;
+  font-family: sans-serif;
 }
 
 /* Style rule for the container */
@@ -26,6 +27,7 @@ body {
 footer {
 	font-size: .70em;
 	text-align: center;
+  color: #792101;
 }
 
 
@@ -35,7 +37,7 @@ table {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #71881b;
+  border: 7px solid #fd4d0c;
 }
 
 table, tr, th, td {
@@ -47,10 +49,12 @@ caption {
   font-size: 2em;
   padding: 2%;
   margin-top: 2%;
+  color: #792101;
+  font-weight: bold;
 }
 
 th, td {
-  border: 1px solid #7188bb;
+  border: 1px solid #a22c02;
 }
 
 td {
@@ -58,5 +62,10 @@ td {
 }
 
 tr:nth-child(odd) {
-    background-color: #d3e788;
+    background-color: #fe9772;
+}
+
+th {
+  background-color: #991f00;
+  color: #fff;
 }
